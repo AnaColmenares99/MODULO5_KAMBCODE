@@ -1,0 +1,24 @@
+{
+  "name": "tarea3",
+  "version": "1.0.0",
+  "description": "Esta es la tarea 3 del modulo 5 - creando un proyecto con NodeJS y NPM",
+  "main": "init.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node init.js",
+    "watch": "nodemon init.js"
+  },
+  "keywords": [
+    "función",
+    "asincrona",
+    "callbacks"
+  ],
+  "author": "Ana Colmenares",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "nodemon": "^3.1.9"
+  }
+  
+}
+

@@ -1,0 +1,16 @@
+{
+  "name": "clase4",
+  "version": "1.0.0",
+  "main": "generator.js",
+  "type": "module",
+  "scripts": {
+    "watch": "node --watch generator.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate-file": "node generator.js",
+    "find-even-number": "node find.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

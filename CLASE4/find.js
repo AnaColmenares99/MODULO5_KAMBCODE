@@ -14,7 +14,7 @@ function obtenerNumerosPares() {
             let numerosPares = '';
 
             numbers.forEach((numberString, i) => {
-                const numero = parseInt(numberString); // Convertir a número
+                const numero = parseInt(numberString);
                 if (numero % 2 === 0) {
                     numerosPares += numero + (i < numbers.length - 1 ? ',' : '');
                 }
@@ -25,18 +25,4 @@ function obtenerNumerosPares() {
     });
 }
 
-// Llamamos a la función y luego escribimos el archivo
-obtenerNumerosPares()
-    .then((numerosPares) => {
-        // Escribir en el archivo numerosPares.txt
-        fs.writeFile('numerosPares.txt', numerosPares, (error) => {
-            if (error) {
-                console.error('Error al escribir el archivo:', error);
-            } else {
-                console.log('Archivo numerosPares.txt creado exitosamente');
-            }
-        });
-    })
-    .catch((error) => {
-        console.log('Error al leer el archivo:', error);
-    });
+export default obtenerNumerosPares;

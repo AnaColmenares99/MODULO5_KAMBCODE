@@ -1,4 +1,5 @@
 import fs from 'fs'
+// import obtenerNumerosPares from './find.js'
 
 let content = '';
 for (let i = 1; i <= 1000; i++) { 
@@ -13,3 +14,4 @@ fs.writeFile('numeros.txt', content, (error) => {
     console.log('Archivo numeros.txt creado exitosamente');
   }
 });
+// obtenerNumerosPares()

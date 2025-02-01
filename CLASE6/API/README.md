@@ -43,9 +43,7 @@ Cuerpo de la petición: JSON con los siguientes campos:
 ![GET - Todos los productos con la actualización](image-5.png)
 
 ### Eliminar un producto
-**Ruta:** DELETE /products/:idObtener todos los productos  
-**Ruta:** GET /products  
-**Respuesta:** Lista de todos los productos en formato JSON.
+**Ruta:** DELETE /products/:id
 
 ![DELETE - Producto eliminado](image-6.png)
 ![GET - Todos los productos sin el eliminado](image-7.png)

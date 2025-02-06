@@ -1,5 +1,5 @@
 import express from 'express';
-import { deleteStudentFunction, getStudentByIdFunction, getStudentsFunction, postStudentFunction, putStudentFunction } from './funtions/index.js';
+import { deleteStudentFunction, getStudentByIdFunction, getStudentsFunction, postStudentFunction, putStudentFunction } from './functions/index.js';
 
 const app = express()
 app.use(express.json())

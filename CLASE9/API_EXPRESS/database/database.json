@@ -1,0 +1,44 @@
+[
+  {
+    "id": 3,
+    "name": "Charlie",
+    "age": 21,
+    "major": "Physics"
+  },
+  {
+    "id": 4,
+    "name": "Ana",
+    "age": 20,
+    "major": "Computer Science"
+  },
+  {
+    "id": 6,
+    "name": "Juan Andres",
+    "age": 23,
+    "major": "Mathematics"
+  },
+  {
+    "id": 7,
+    "name": "Bob",
+    "age": 22,
+    "major": "Mathematics"
+  },
+  {
+    "id": 8,
+    "name": "Alice",
+    "age": 25,
+    "major": "Science"
+  },
+  {
+    "id": 10,
+    "name": "Bubu",
+    "age": 22,
+    "major": "Mathematics"
+  },
+  {
+    "id": 11,
+    "name": "Camilo",
+    "age": 52,
+    "major": "Mathematics"
+  }
+]
